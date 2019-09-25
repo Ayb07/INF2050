@@ -1,0 +1,33 @@
+Gestion de sources
+----------------------------------
+- travail collaboratif, conflit 
+- historique
+- retour en arrière
+- travailler sur un ensemble de branches 
+- git
+
+
+bash/revert: pour annuler un commit
+
+
+JSON
+-----------------------------------------
+java script en lien avec json
+
+- propriete separer par des virgules
+- crochet pour des list[] 
+- un objet et delimite par des accolades {}
+- valeur separe  de la propiete par ":"
+- type valeur:
+	chaine de caractere
+	un nombre
+	true 
+	false
+	null 
+	un tableau 
+
+- tableau non typé, n'importe quel valeur dedans
+
+- .toString(2) fait une indentation pour la sortie du fichier json
+
+* http://jsonlint.com/ editeur json validation
