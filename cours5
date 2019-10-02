@@ -1,0 +1,66 @@
+Environnements de développement
+IDE -> interface unique pour un ensemble d'outils(écosystème)
+
+Éditeur + shell
+
+Livrables
+
+
+
+Test unitaire (test automatisé)
+-------------------
+test qui vérifie qu'une petite partie du logiciel.
+
+-La forme de teste la plus légère,avec la porté la plus limité
+-Plusieurs test unitaire peuvent etre utile sur une méthode.
+-Ne s'applique qu'a une seule fonctionnalié d'une classe
+
+
+Test fonctionnel (test géneralement manuel) 
+---------------------------
+Vérifie une fonctionnalité du système, peut etre fait à partir de l'interface 
+utilisateur.
+
+
+Test de régression
+------------------------
+Vérifie que la fonctionnalié n'a pas été brisée par un changement.
+
+
+Test de charge
+--------------------------
+Habituellement pour les applications web ou distribuées, vérifie le comportement de l'application lors de forts achalandages.
+
+
+Test d'intégration (simulation)
+---------------------------
+Vérifie l'intégration de différents composants du système.
+Reproduire l'environnement de production.
+
+
+Test d'acceptation
+---------------------------
+Le client approuve que la fonctionnalié développée correspond à ce qu'il voulait.
+
+
+Un test unitaire ne doit pas :
+----------------------------------
+-Manipuler un fichier 
+-Traiter avec une base de données
+-Effectuer une communication sur un réseau
+-Dépendre d'un environnement de test
+-Communiquer avec le système d'exploitatio
+
+JUnit
+--------------------------------
+outils -> junit
+langages de programmation utlisé
+librairies -> utilisation ponctuelle et localisé
+framework -> junit 
+
+ordre test unitaire 
+
+@beforeClass
+@before
+@test
+@after
